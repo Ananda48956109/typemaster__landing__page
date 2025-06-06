@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-block: 96px 50px;
+}
+
+@media (width >= 48em) {
+    .footer {
+        padding-block: 142px 43px;
+    }
+}
+
+@media (width >= 75em) {
+    .footer {
+        padding-block: 128px 39px;
+    }
+}

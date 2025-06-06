@@ -1,0 +1,40 @@
+/* barlow-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/barlow-v12-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* barlow-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/barlow-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* barlow-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/barlow-v12-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  /* Min font-size 48 px, Max font-size 56px, Min viewport 37.5rem, Max viewport 64.0625rem */
+  /* For h1 tags */
+  --fs-1: clamp(3rem, 2.2941176470588234rem + 1.8823529411764703vw, 3.5rem);
+  /* For h2 tags */
+  --fs-2: 2rem;
+  /* For h3 tags */
+  --fs-3: 1.5rem;
+  /* For paragraph tags */
+  --fs-4: clamp(1rem, 0.8235294117647058rem + 0.4705882352941176vw, 1.125rem);
+  /* For buttons */
+  --fs-5: 1rem;
+}
