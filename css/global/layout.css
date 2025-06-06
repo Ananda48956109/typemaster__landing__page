@@ -1,0 +1,17 @@
+.wrapper {
+    padding-inline: 24px;
+}
+
+@media (width >= 48em) {
+    .wrapper {
+        padding-inline: 39px 40px;
+    }
+}
+
+@media (width >= 75em) {
+    .wrapper {
+        width: 69.375em;
+        margin: auto;
+        padding: 0;
+    }
+}
